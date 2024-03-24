@@ -22,4 +22,4 @@ $effect(() => {
 
 `$effect`'s destroy is not called if there is `/routes/dev/+layout.ts` (even if it's empty)
 
-Sometimes also `<a href="/">` and `goto('/')` navigation stops working w/o any errors thrown.
+Sometimes also `<a href="/">` and `goto('/')` navigation stops working w/o any errors being thrown. I'm not sure when that happens exactly.

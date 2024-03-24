@@ -4,19 +4,19 @@
 $ npm run dev
 ```
 
-* Open http://localhost:5173/
-* Open developer tools → console
-* Click on "/dev/thing" link
-* Click on "back to index" (or browser's back button)
+- Open http://localhost:5173/
+- Open developer tools → console
+- Click on "/dev/thing" link
+- Click on "back to index" (or browser's back button)
 
 `/routes/dev/thing/+page.svelte` has `$effect`:
 
-``` ts
+```ts
 $effect(() => {
-  console.log('create');
-  return () => {
-    console.log('destroy');
-  }
+	console.log('create');
+	return () => {
+		console.log('destroy');
+	};
 });
 ```
 
